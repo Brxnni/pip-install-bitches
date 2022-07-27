@@ -4,7 +4,7 @@ from os import mkdir, sep
 from random import randint
 from threading import Thread
 
-api = 'https://api.waifu.pics/nsfw/waifu'
+api = 'https://api.waifu.pics/sfw/waifu'
 
 
 def get(directory="bitches", amount=randint(5, 10)):
